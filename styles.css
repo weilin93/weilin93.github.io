@@ -1,0 +1,38 @@
+input
+{
+    font-size: 15px;
+    padding: 12px;
+    margin: 8px;
+}
+
+.nav-link
+{
+    color: black;
+    font-size:12px
+}
+
+.nav-link:hover
+{
+    text-decoration-line: underline;
+    color:black;
+}
+
+.grid
+{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 200px auto;
+
+}
+
+.input
+{
+    max-width: 600px;
+}
+
+.item
+{
+    padding:15px 10px;
+    font-size: 15px;
+}
+

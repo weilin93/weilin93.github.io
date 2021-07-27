@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+        <link href="styles.css" rel="stylesheet">
+        
+        <title>Google Advanced Search</title>
+    </head>
+    <body>
+        <!-- Nav-->
+        <ul class="nav">
+            <li class="nav-item me-auto mt-1 p-1">
+                <img style="width:90px" src="logo.png" alt="logo">
+            </li>
+            <li class="nav-item ms-auto mt-2">
+              <a class="nav-link" href="index.html">Search</a>
+            </li>
+        </ul>
+
+        <!-- Input fields-->
+        <main>
+            <h5 style="color:rgb(224, 47, 47); padding: 40px; padding-bottom: 0; font-family:sans-serif;">Advanced Search</h2>
+            <p style="padding:40px; padding-bottom: 0; margin-top: 40px;">Find pages with...</p>
+            <form action="https://google.com/search">
+                <div class="grid">
+                    <div class="item"><p>all these words: </p></div>
+                    <div class="input"><input autofocus autocomplete="off" class="form-control" type="text" name="as_q"></div>
+                    <div class="item"><p>this exact word or phrase: </p></div>
+                    <div class="input"><input autocomplete="off" class="form-control" type="text" name="as_epq"></div>
+                    <div class="item"><p>any of these words: </p></div>
+                    <div class="input"><input autocomplete="off" class="form-control" type="text" name="as_oq"></div>
+                    <div class="item"><p>none of these words: </p></div>
+                    <div class="input"><input autocomplete="off" class="form-control" type="text" name="as_eq"></div>
+                    <input class="btn btn-primary" style="width:120px; font-size: 12px; float:right;" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
